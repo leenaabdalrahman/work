@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: scroll;
+  position: sticky;
+  top: 0;
+}
+
+.navbar img {
+  width: 50%;
+  display: flex;
+}
+
+.logo {
+  width: 30%;
+}
+
+.list ul {
+  display: flex;
+  list-style-type: none;
+  direction: row;
+  gap: 14px;
+}
+
+.list ul a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
